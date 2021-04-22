@@ -1,0 +1,12 @@
+.content {
+  grid-area: c;
+  background: linear-gradient(to top, #f04d38, #f0ed36);
+}
+
+.content img {
+  width: 50%;
+}
+
+.item {
+  color: #f0ed36;
+}

@@ -1,0 +1,8 @@
+.nav {
+  grid-area: n;
+  background: linear-gradient(to bottom, #1382c2, #9313c2);
+}
+
+.item {
+  color: white;
+}
