@@ -7,7 +7,7 @@ const Post = (props) => {
       <img src="https://images.chesscomfiles.com/uploads/v1/user/53289452.74bc4f40.1200x1200o.27da855ed42f.jpeg" />
       {props.message}
       <div>
-        <span>like</span>
+        <span>like: {props.likesCount}</span>
       </div>
     </div>
   );
