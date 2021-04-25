@@ -1,8 +1,17 @@
 .nav {
   grid-area: n;
   background: linear-gradient(to bottom, #1382c2, #9313c2);
+  padding: 20px;
+  margin-top: 20px;
+  margin-right: 20px;
+  border-radius: 10px;
 }
 
-.item {
+.item a {
   color: white;
+  text-decoration: none;
+}
+
+.item a.activeLink {
+  color: gold;
 }

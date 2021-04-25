@@ -1,8 +1,23 @@
 .header {
   grid-area: h;
   background: linear-gradient(45deg, #1382c2, #9313c2);
+  border-radius: 10px;
+  display: grid;
+  margin-top: 10px;
+
+  grid-template-areas: "i h1";
+  grid-template-columns: 1fr 10fr;
 }
 
 .header img {
-  width: 40px;
+  grid-area: i;
+  width: 50px;
+  margin: auto;
+  margin-left: 20px;
+}
+
+.h1 {
+  grid-area: h1;
+  margin: auto;
+  color: white;
 }
