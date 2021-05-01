@@ -1,7 +1,8 @@
 .app-wrapper {
-  margin: 0 auto;
+  margin: 10px auto;
   display: grid;
   width: 1200px;
+  /* margin-top: 10px; */
 
   grid-template-areas:
     "h h"
@@ -15,10 +16,5 @@
   grid-area: c;
   background: linear-gradient(to top, #f04d38, #f0ed36);
   margin-top: 20px;
-  border-radius: 10px;
-}
-
-.app-wrapper-content img {
-  width: 50%;
   border-radius: 10px;
 }

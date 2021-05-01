@@ -3,7 +3,6 @@
   background: linear-gradient(45deg, #1382c2, #9313c2);
   border-radius: 10px;
   display: grid;
-  margin-top: 10px;
 
   grid-template-areas: "i h1";
   grid-template-columns: 1fr 10fr;

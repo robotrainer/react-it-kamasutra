@@ -1,0 +1,10 @@
+.content img {
+  width: 50%;
+  border-radius: 10px;
+  margin: auto;
+  display: block;
+}
+
+.descriptionBlock {
+  padding: 10px;
+}
